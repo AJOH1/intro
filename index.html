@@ -1,24 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PROFILE CARD.</title>
-    <link rel="stylesheet" href="profile.css">
+    <title>Document</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome for social icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="card"> 
-            <img src="img/picture.jpg" alt="picture" width="40%" height="40%" class="card_img">
-            <p class="card_name">EKEH MICHEAL</p>
-            <P class="card_location">LAGOS,NIGERIA.</P>
-            <div class="grid-container">
-                <q class="card_title"> FULL STAKE DEVELOPER AND CYBER SECURITY</q>
+    
+    <!--MENU NAVIGATION-->
+    
+    <div class="topnav" id="myTopnav">
+        <a href="./index.html" class="navbar-brand" style="font-family:'Cherry Cream Soda', cursive; font-size: 22px; color: white">FB Design</a>
+        <a href="#About">ABOUT</a>
+        <a href="#Port">PORTFOLIO</a>
+        <a href="#Contact">CONTACT</a>
+        <a href="./profile.html">PROFILE CARD</a>
+        <!-- <div class="dropdown">
+          <button class="dropbtn">Dropdown
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div> -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
 
+    <!--HEADER-->
+    <header>
+        <div class="container header-site">
+            <h1 class="text-center heading">FB Design</h1>
+            <h2 class="text-center">Creative Solutions & Digital Design</h2>
+        </div>
+    </header>
+
+    <!--ABOUT-->
+    <div id="About" class="container-fluid">
+        <h3 class="text-center">About Me</h3>
+        <hr class="style-one"></hr>
+        <p class="container">My name is Ekeh Michael, and I hail from the vibrant city of Enugu, Nigeria. <br>
+            My passion for coding ignited during my junior years of education, igniting a spark that has continued to burn brightly ever since.<br>
+            The allure of crafting digital solutions, the thrill of problem-solving through code, and the limitless potential of technology captured my imagination. <br>
+            I immersed myself in the world of programming, dedicating countless hours to learning and experimenting.<br>
+            As I journey forward, I aspire to become a skilled and respected software developer. I dream of venturing overseas, where I can collaborate with talented individuals from around the world and contribute to groundbreaking projects.<br>
+             With each line of code I write, I am one step closer to realizing my ambitions.</p>
+        <div class="row">
+            <div class="col-xs-2">
+                <div class="centerBlock">
+                    <i class="devicons devicon-html5-plain-wordmark colored"></i>
+                </div>
             </div>
-            <button><a href="aboutme.html">ABOUT ME!</a></button><BR>
-            <button> <a href="hireme.html">HIRE ME!!</a></button>
+            <div class="col-xs-2">
+                <div class="centerBlock">
+                    <i class="devicons devicon-css3-plain-wordmark colored"></i>
+                </div>
+            </div>
+            <div class="col-xs-2">
+                <div class="centerBlock">
+                    <i class="devicons devicon-bootstrap-plain-wordmark colored"></i>
+                </div>
+            </div>
+            <div class="col-xs-2">
+                <div class="centerBlock">
+                    <i class="devicons devicon-jquery-plain-wordmark colored"></i>
+                </div>
+            </div>
+            <div class="col-xs-2">
+                <div class="centerBlock">
+                    <i class="devicons devicon-javascript-plain colored"></i>
+                </div>
+            </div>
+            <div class="col-xs-2">
+                <div class="centerBlock">
+                    <i class="devicons devicon-sass-original colored"></i>
+                </div>
+            </div>
+        </div>
+        <hr class="style-one"></hr>
+    </div>
+
+    <!--PORTFOLIO-->
+    <div id="Port" class="portFo">
+        <hr class="style-two"></hr>
+        <h4 class="text-center">Portfolio</h4>
+        <hr class="style-three"></hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <a href="#" target="_blank"><img src="http://assets7.classicfm.com/2011/01/beethoven-1294417586-hero-wide-0.jpg" class="img-responsive"></a>
+                    <h5>Beethoven Tribute Page</h5>
+                    <hr class="style-three"></hr>
+                </div>
+                <div class="col-sm-6">
+                    <a href="#" target="_blank"><img src="./img/game-of-thrones.jpg" class="img-responsive"></a>
+                    <h5>Quote Machine (coming soon)</h5>
+                    <hr class="style-three"></hr>
+                </div>
+                <div class="col-sm-6">
+                    <a href="#" target="_blank"><img src="http://www.pandasecurity.com/mediacenter/src/uploads/2014/08/twitch.jpg" class="img-responsive"></a>
+                    <h5>Twitch.tv API (coming soon)</h5>
+                    <hr class="style-three"></hr>
+                </div>
+                <div class="col-sm-6">
+                    <a href="#" target="_blank"><img src="https://lh5.ggpht.com/XzSsSUl64LO_CHbBvzDGYplGnPwM3bO4hGe2G3eUIglsip-5DdZE6oCd073NKBGrRXo=h900" class="img-responsive"></a>
+                    <h5>Weather App (coming soon)</h5>
+                    <hr class="style-three"></hr>
+                </div>
+                <div class="col-sm-6">
+                    <a href="#" target="_blank"><img src="./img/tic-tac-toe.jpg" class="img-responsive"></a>
+                    <h5>Tic Tac Toe (coming soon)</h5>
+                    <hr class="style-three"></hr>
+                </div>
+                <div class="col-sm-6">
+                    <a href="#" target="_blank"><img src="https://lh4.ggpht.com/vDE6OJWrS1qRyUMoVg60Abn54dOHbeoKaszB2v1ceOT5Ozcve5oTtdvvnv1z0SkJtg=h900" class="img-responsive"></a>
+                    <h5>Javascript Calculator (coming soon)</h5>
+                    <hr class="style-three"></hr>
+                </div>
+            </div>
         </div>
     </div>
+
+    <!--CONTACT INFORMATION-->
+    <div id="Contact" class="contactInfo">
+        <div class="container">
+            <h6 class="text-center move">Contact Me</h6>
+            <hr class="style-four"></hr>
+            <div class="row text-center">
+                <a href="https://twitter.com/fbtechvita" target="_blank" class="btsize btn btn-social-icon btn-twitter">
+                    <span class="fa fa-twitter"></span>
+                </a>
+                <a href="https://ca.linkedin.com/in/frank-bono-175a4044" target="_blank" class="btsize btn btn-social-icon btn-linkedin">
+                    <span class="fa fa-linkedin"></span>
+                </a>
+                <a href="https://github.com/Frankbono" target="_blank" class="btsize btn btn-social-icon btn-github">
+                    <span class="fa fa-github"></span>
+                </a>
+                <div class="container">
+                    <div class="col-centered col-lg-4 col-md-6 col-sm-8 col-xs-12">
+                        <form role="form" action="submit-comment">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Comments" rows="5"></textarea>
+                            </div>
+                            <button class="btn btn-primary" type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+      </script>
 </body>
+
 </html>

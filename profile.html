@@ -1,12 +1,47 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PROFILE CARD.</title>
+    <title>PROFILE CARD</title>
     <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
+    <div class="topnav" id="myTopnav">
+        <a href="/index.html"class="navbar-brand" style="font-family:'Cherry Cream Soda', cursive; font-size: 22px; color: white">FB Design</a>
+        <a href="/index.html#About">ABOUT</a>
+        <a href="/index.html#Port">PORTFOLIO</a>
+        <a href="/index.html#Contact">CONTACT</a>
+        <a href="/profile.html">PORTFOLIO CARD</a>
+       
+        <!-- <div class="dropdown">
+          <button class="dropbtn">Dropdown
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div> -->
+       
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+      <script>
+        /* Toggle betwee    n showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+      </script>
+    
     <div class="container">
         <div class="card"> 
             <img src="img/picture.jpg" alt="picture" width="40%" height="40%" class="card_img">
@@ -16,9 +51,9 @@
                 <q class="card_title"> FULL STAKE DEVELOPER AND CYBER SECURITY</q>
 
             </div>
-            <button><a href="aboutme.html">ABOUT ME!</a></button><BR>
-            <button> <a href="hireme.html">HIRE ME!!</a></button>
+            <button><a href="./index.html#About">ABOUT ME!</a></button><BR>
+            <button> <a href="index.html#Contact">HIRE ME!!</a></button>
         </div>
     </div>
 </body>
-</html> -->
+</html>

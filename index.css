@@ -4,6 +4,7 @@ header {
     background-size: cover;
     height: 900px;
     margin-top: 0px;
+    
 }
 
 .navbar .nav > li > a {
@@ -99,7 +100,7 @@ hr.style-four {
     background-color: black;
     background-size: cover;
     background: repeat-y;
-    height: 1900px;
+    height: 50%;
 }
 
 .contactInfo {
@@ -173,6 +174,8 @@ hr.style-four {
 .topnav {
     background-color: #d84704e5;
     overflow: hidden;
+    /* position:sticky;
+    top:0 */
   }
   
   /* Style the links inside the navigation bar */
